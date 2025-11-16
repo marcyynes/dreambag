@@ -5,8 +5,8 @@ import { posts } from "~/server/db/schema";
 // MOCK MODE — set to true to disable real database
 const USE_MOCK = true;
 
-//  Fake data for testing
-let mockPosts = [
+// Fake data for testing
+const mockPosts = [
   { id: 1, name: "Mock Post 1", createdAt: new Date() },
   { id: 2, name: "Mock Post 2", createdAt: new Date() },
 ];
